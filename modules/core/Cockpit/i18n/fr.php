@@ -1,7 +1,18 @@
 <?php
 
 return [
-    
+	'@meta' => [
+	
+	'language' => 'Français',
+	'author'   => 'Alexandre Darriet',
+	
+	'date' => [
+	'shortdays'   => ['Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa', 'Di'],
+	'longdays'    => ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'],
+	'shortmonths' => ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Aout', 'Sept', 'Oct', 'Nov', 'Dec'],
+	'longmonths'  => ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
+	]
+	],
     // Common
     'Dashboard'  => 'Tableau de Bord',
     'General'  => 'Général',
@@ -11,8 +22,8 @@ return [
     'Filter by name...' => 'Filtrer par nom...',
     'Save' => 'Sauvegarder',
     'Cancel' => 'Annuler',
-    'Entry' => 'Eintrag',
-    'Entries' => 'Einträge',
+    'Entry' => 'Entrée',
+    'Entries' => 'Entrées',
     'Field' => 'Champ',
     'Fields' => 'Champs',
     'Latest' => 'Dernier',
@@ -38,14 +49,14 @@ return [
     'New Password' => 'Nouveau Mot de Passe',
     'Create account' => 'Créer un compte',
     'Leave the password field empty to keep your current password.' => 'Laissez le champ Mot de passe vide pour garder votre mot de passe actuel.',
-    'Edit account' => 'Modifié le Compte',
+    'Edit account' => 'Modifier le Compte',
     'Edit account settings' => 'Modifier les paramètres du compte',
     'Delete account' => 'Supprimer le Compte',
     'Account saved!' => 'Compte sauvegardé !',
 
     // Addons 
     'Addons'   => 'Extensions',
-    'No additional addons installed.' => 'Pas d'extensions installées.',
+    'No additional addons installed.' => 'Pas d\'extensions installées.',
 
     // Collections
     'Collections' => 'Collections',
@@ -58,12 +69,12 @@ return [
     'You don\'t have any collections created.' => 'Vous n\'avez aucune collection de créée.',
     'Save Collection' => 'Sauver la collection',
     'Add entry' => 'Ajouter des entrées',
-    'Edit entry' => 'Modifier l'\entrée',
-    'Delete entry' => 'Supprimer l'\entrée',
+    'Edit entry' => 'Modifier l\'entrée',
+    'Delete entry' => 'Supprimer l\'entrée',
     'It seems you don\'t have any fields created.' => 'Vous n\'avez aucun champ de créé.',
     'Goto entries' => 'Allez aux entrées',
-    'Fields on entries list page' => 'Felder anzeigen auf der Übersichtsseite',
-    'Order entries on list page' => 'Einträge ordnen auf der Übersichtsseite',
+    'Fields on entries list page' => 'Ordonner les champs de la page',
+    'Order entries on list page' => 'Trier les entrées',
     'created' => 'créé',
     'modified' => 'modifié',
     'descending' => 'descendant',
@@ -98,12 +109,12 @@ return [
     'Delete file' => 'Supprimer le fichier',
     'Download file' => 'Télécharger le fichier',
     'Size' => 'Taille',
-    'Last modified' => 'Dernier modifié',
+    'Last modified' => 'Dernière modification',
     'This folder is empty.' => 'Ce dossier est vide.',
     'Save file' => 'Sauvegarder le fichier',
     'Close file' => 'Fermer le fichier',
     'Do you really want to remove %s ?' => 'Voulez-vous vraiment supprimer %s ?',
-    'This file is not writable!' => 'Ce fichier n\'est pas accessible en écriture !',
+    'This file is not writable!' => 'Ce fichier n\'est pas accessible en �criture !',
     'Please enter new name:' => 'Merci de saisir un nouveau nom :',
     'Please enter name:' => 'Merci de saisir un nom :',
     '%s is already bookmarked.' => '%s est déjà dans les favoris.',
